@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta  name="description"  content="This is my first website">
+    <title>First website</title>
+    <style>
+        table,th,td,tr{
+         border-style: solid;
+            border-collapse: collapse;
+            border-color: blue;
+            background-color: aliceblue;
+        }
+    </style>
+   </head>
+   
+ <h1> Registration Form</h1>
+ <form>
+     <label for="name" > Name</label> <br>
+  <input type="text" placeholder="Enter your name" required > <br>
+  <label for="email" > email</label><br>
+  <input type="email" placeholder="enter your email" required><br>
+   <label for="age" > age</label> <br>
+  <input type="number" placeholder="ener your name"><br>
+  <label for="Gender" >Gender</label><br>
+  <label for="Male">Male</label>
+  <input type="radio" id="Male" name="Gender">
+  <label for="Female">Female</label>
+  <input type="radio" id="Female" name="Gender"><br>
+  <label for="Region">Region</label>
+  <select name="Region" id="Region">
+   <option value="Tgray"> Tigray</option>
+   <option value="Amhara">Amhara</option>
+   <option value="oromia">oromia</option>
+   <option value="Afar">Afar</option>
+   </select><br>
+   <label for="Skill">Skills</label> <br>
+   <input type="checkbox" >
+   <label for="Web development"> web development</label>
+   <input type="checkbox">
+   <label for="Machine learning">Mechien learning</label>
+   <input type="checkbox">
+   <label for="Data science">Data science</label><br><br>
+   
+     <legend for="addtional " >Addtional information</legend>
+     <textarea id="addtional "></textarea><br>
+   
+   <input type="submit" value="Rgister">
+   <input type="reset" value="clear">
+ </form>
+ <table>
+    <tr>
+        <th colspan="3">Students</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Major</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>nahom</td>
+        <td>cs</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>meseret</td>
+        <td>cs</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>dejen</td>
+        <td>sw</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <th colspan="2">Total</th>
+        <td>64</td>
+    </tr>
+ </table>
+
+   </body>
+    
